@@ -2,19 +2,25 @@ name: Update Starred Repos in README
 
 on:
   schedule:
-    - cron: '0 * * * *' # Runs every hour; adjust as needed
-  workflow_dispatch: # Allows manual trigger
+    - cron: '0 * * * *'
+  workflow_dispatch:
 
 jobs:
   update-stars:
     runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v3
 
-      - uses: abhijithvijayan/github-profile-readme-stars@v2.1
-        with:
+    steps:
+      - name: Checkout Repo
+        uses: actions/checkout@v3
+
+      - name: Fetch Starred Repos and Update README
+        env:
           GH_USERNAME: ${{ github.repository_owner }}
-          STARRED_LIMIT: 10  # Number of repos to list
+        run: |
+          echo "# ⭐ My Favorite Repositories" > README.md
+          echo "" >> README.md
+
+          curl -s "https://api.github.com/users/${GH_USERNAME}/starred?per_page=10" | jq '.[] | "- [" + .full_name + "](" + .html_url + "): " + (.description // "No description")' >> README.md
 
       - name: Commit and Push Changes
         run: |

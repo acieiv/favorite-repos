@@ -19,9 +19,11 @@ jobs:
         run: |
           echo "# ⭐ My Favorite Repositories" > README.md
           echo "" >> README.md
-
-          curl -s "https://api.github.com/users/${GH_USERNAME}/starred?per_page=10" | jq '.[] | "- [" + .full_name + "](" + .html_url + "): " + (.description // "No description")' >> README.md
-
+        
+          curl -s "https://api.github.com/users/${GH_USERNAME}/starred?per_page=10" | jq -r '
+            .[] | 
+            "### [📌 \(.full_name)](\(.html_url))\n> _\(.description // "No description.")_\n\n---\n"
+          ' >> README.md
       - name: Commit and Push Changes
         run: |
           git config --global user.name 'github-actions[bot]'

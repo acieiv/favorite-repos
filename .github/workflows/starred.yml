@@ -2,15 +2,14 @@ name: Update Starred Repos in README
 
 on:
   schedule:
-    - cron: '0 * * * *'
-  workflow_dispatch:
+    - cron: '0 * * * *'   # Runs every hour
+  workflow_dispatch:       # Manual trigger
 
 jobs:
   update-stars:
     runs-on: ubuntu-latest
-
     steps:
-      - name: Checkout Repo
+      - name: Check out Repo
         uses: actions/checkout@v3
 
       - name: Fetch Starred Repos and Update README
@@ -19,16 +18,19 @@ jobs:
         run: |
           echo "# ⭐ My Favorite Repositories" > README.md
           echo "" >> README.md
-          
-          curl -s "https://api.github.com/users/${GH_USERNAME}/starred?per_page=10" | jq -r '
-            .[] |
-            "### [📌 \(.full_name)](\(.html_url))\n> _\(.description // \"No description.\")_\n\n---\n"
-          ' >> README.md
+
+          # Put the jq expression into a variable to avoid crazy quoting issues:
+          expression='.[] | "### [📌 " + .full_name + "](" + .html_url + ")\n> _" + (.description // "No description.") + "_\n\n---\n"'
+
+          # Fetch 10 starred repos, transform to Markdown, append to README.md
+          curl -s "https://api.github.com/users/${GH_USERNAME}/starred?per_page=10" \
+            | jq -r "$expression" \
+            >> README.md
 
       - name: Commit and Push Changes
         run: |
           git config --global user.name 'github-actions[bot]'
           git config --global user.email '41898282+github-actions[bot]@users.noreply.github.com'
           git add README.md
-          git commit -m 'Update starred repos' || echo "No changes to commit"
+          git commit -m "Update starred repos" || echo "No changes to commit"
           git push

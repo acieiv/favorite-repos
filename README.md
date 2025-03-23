@@ -1,4 +1,4 @@
-# ⭐ My Favorite Repositories
+# ⭐ My Top Repos
 
 ### [📌 anthropics/anthropic-cookbook](https://github.com/anthropics/anthropic-cookbook)
 > _A collection of notebooks/recipes showcasing some fun and effective ways of using Claude._

@@ -16,7 +16,7 @@ jobs:
         env:
           GH_USERNAME: ${{ github.repository_owner }}
         run: |
-          echo "# ⭐ My Favorite Repositories" > README.md
+          echo "# ⭐ My Top Repos" > README.md
           echo "" >> README.md
 
           # Put the jq expression into a variable to avoid crazy quoting issues:

@@ -1,5 +1,10 @@
 # ⭐ My Top Repos
 
+### [📌 ByteByteGoHq/system-design-101](https://github.com/ByteByteGoHq/system-design-101)
+> _Explain complex systems using visuals and simple terms. Help you prepare for system design interviews._
+
+---
+
 ### [📌 anthropics/anthropic-cookbook](https://github.com/anthropics/anthropic-cookbook)
 > _A collection of notebooks/recipes showcasing some fun and effective ways of using Claude._
 
@@ -42,11 +47,6 @@
 
 ### [📌 BerriAI/litellm](https://github.com/BerriAI/litellm)
 > _Python SDK, Proxy Server (LLM Gateway) to call 100+ LLM APIs in OpenAI format - [Bedrock, Azure, OpenAI, VertexAI, Cohere, Anthropic, Sagemaker, HuggingFace, Replicate, Groq]_
-
----
-
-### [📌 OpenBB-finance/OpenBB](https://github.com/OpenBB-finance/OpenBB)
-> _Investment Research for Everyone, Everywhere._
 
 ---
 

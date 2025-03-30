@@ -1,5 +1,10 @@
 # ⭐ My Top Repos
 
+### [📌 AiCodingBattle/augment-nextjs-starterpack](https://github.com/AiCodingBattle/augment-nextjs-starterpack)
+> _No description._
+
+---
+
 ### [📌 katanemo/archgw](https://github.com/katanemo/archgw)
 > _The AI-native proxy server for agents. Arch handles the pesky heavy lifting in building agentic apps - routing prompts to agents or specifc tools, clarifying user inputs, unifying access and observability to any LLM - so you can build smarter and ship faster._
 
@@ -42,11 +47,6 @@
 
 ### [📌 microsoft/qlib](https://github.com/microsoft/qlib)
 > _Qlib is an AI-oriented quantitative investment platform that aims to realize the potential, empower research, and create value using AI technologies in quantitative investment, from exploring ideas to implementing productions. Qlib supports diverse machine learning modeling paradigms. including supervised learning, market dynamics modeling, and RL._
-
----
-
-### [📌 vllm-project/vllm](https://github.com/vllm-project/vllm)
-> _A high-throughput and memory-efficient inference and serving engine for LLMs_
 
 ---
 

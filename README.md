@@ -1,5 +1,20 @@
 # ⭐ My Top Repos
 
+### [📌 donnemartin/system-design-primer](https://github.com/donnemartin/system-design-primer)
+> _Learn how to design large-scale systems. Prep for the system design interview.  Includes Anki flashcards._
+
+---
+
+### [📌 agno-agi/agno](https://github.com/agno-agi/agno)
+> _Lightweight framework for building Agents with memory, knowledge, tools and reasoning._
+
+---
+
+### [📌 microsoft/markitdown](https://github.com/microsoft/markitdown)
+> _Python tool for converting files and office documents to Markdown._
+
+---
+
 ### [📌 AiCodingBattle/augment-nextjs-starterpack](https://github.com/AiCodingBattle/augment-nextjs-starterpack)
 > _No description._
 
@@ -32,21 +47,6 @@
 
 ### [📌 better-auth/better-auth](https://github.com/better-auth/better-auth)
 > _The most comprehensive authentication framework for TypeScript_
-
----
-
-### [📌 virattt/ai-hedge-fund](https://github.com/virattt/ai-hedge-fund)
-> _An AI Hedge Fund Team_
-
----
-
-### [📌 VikParuchuri/marker](https://github.com/VikParuchuri/marker)
-> _Convert PDF to markdown + JSON quickly with high accuracy_
-
----
-
-### [📌 microsoft/qlib](https://github.com/microsoft/qlib)
-> _Qlib is an AI-oriented quantitative investment platform that aims to realize the potential, empower research, and create value using AI technologies in quantitative investment, from exploring ideas to implementing productions. Qlib supports diverse machine learning modeling paradigms. including supervised learning, market dynamics modeling, and RL._
 
 ---
 

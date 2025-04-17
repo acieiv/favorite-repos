@@ -6,7 +6,7 @@
 ---
 
 ### [📌 agno-agi/agno](https://github.com/agno-agi/agno)
-> _Lightweight framework for building Agents with memory, knowledge, tools and reasoning._
+> _Lightweight library for building Agents with memory, knowledge, tools and reasoning._
 
 ---
 

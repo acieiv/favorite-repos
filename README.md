@@ -21,7 +21,7 @@
 ---
 
 ### [📌 katanemo/archgw](https://github.com/katanemo/archgw)
-> _The AI-native proxy server for agents. Arch handles the pesky low-level logic in building agentic apps- routing prompts to agents or specific tools, clarifying input, unifying access and observability to any LLM - so you can build smarter and ship faster._
+> _The AI-native proxy server for agents. Arch handles the pesky heavy lifting in building agentic apps- routing prompts to agents or specific tools, clarifying input, unifying access and observability to any LLM - so you can build smarter and ship faster._
 
 ---
 

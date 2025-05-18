@@ -11,7 +11,7 @@
 ---
 
 ### [📌 agno-agi/agno](https://github.com/agno-agi/agno)
-> _Agno is a lightweight library for building Agents with memory, knowledge, tools and reasoning._
+> _Agno is a lightweight, high-performance library for building Agents with memory, knowledge, and reasoning._
 
 ---
 

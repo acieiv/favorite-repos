@@ -1,5 +1,10 @@
 # ⭐ My Top Repos
 
+### [📌 langchain-ai/open_deep_research](https://github.com/langchain-ai/open_deep_research)
+> _No description._
+
+---
+
 ### [📌 roboflow/trackers](https://github.com/roboflow/trackers)
 > _A unified library for object tracking featuring clean room re-implementations of leading multi-object tracking algorithms_
 
@@ -42,11 +47,6 @@
 
 ### [📌 Skyvern-AI/skyvern](https://github.com/Skyvern-AI/skyvern)
 > _Automate browser-based workflows with LLMs and Computer Vision_
-
----
-
-### [📌 yamadashy/repomix](https://github.com/yamadashy/repomix)
-> _📦 Repomix is a powerful tool that packs your entire repository into a single, AI-friendly file. Perfect for when you need to feed your codebase to Large Language Models (LLMs) or other AI tools like Claude, ChatGPT, DeepSeek, Perplexity, Gemini, Gemma, Llama, Grok, and more._
 
 ---
 

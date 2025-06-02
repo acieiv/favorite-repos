@@ -21,7 +21,7 @@
 ---
 
 ### [📌 agno-agi/agno](https://github.com/agno-agi/agno)
-> _Agno is a lightweight, high-performance library for building Agents._
+> _Full-stack framework for building Multi-Agent Systems with memory, knowledge and reasoning._
 
 ---
 

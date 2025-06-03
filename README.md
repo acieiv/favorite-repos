@@ -1,5 +1,10 @@
 # ⭐ My Top Repos
 
+### [📌 VincentGarreau/particles.js](https://github.com/VincentGarreau/particles.js)
+> _A lightweight JavaScript library for creating particles_
+
+---
+
 ### [📌 Doriandarko/deepseek-engineer](https://github.com/Doriandarko/deepseek-engineer)
 > _A powerful coding assistant application that integrates with the DeepSeek API to process user conversations and generate structured JSON responses. Through an intuitive command-line interface, it can read local file contents, create new files, and apply diff edits to existing files in real time._
 
@@ -42,11 +47,6 @@
 
 ### [📌 katanemo/archgw](https://github.com/katanemo/archgw)
 > _The AI-native proxy server for agents. Arch handles the pesky low-level work in building agentic apps like calling specific tools, routing prompts to the right agents, clarifying vague inputs, unifying access and observability to any LLM, etc._
-
----
-
-### [📌 ByteByteGoHq/system-design-101](https://github.com/ByteByteGoHq/system-design-101)
-> _Explain complex systems using visuals and simple terms. Help you prepare for system design interviews._
 
 ---
 

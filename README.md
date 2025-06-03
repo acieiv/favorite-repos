@@ -1,5 +1,10 @@
 # ⭐ My Top Repos
 
+### [📌 Doriandarko/deepseek-engineer](https://github.com/Doriandarko/deepseek-engineer)
+> _A powerful coding assistant application that integrates with the DeepSeek API to process user conversations and generate structured JSON responses. Through an intuitive command-line interface, it can read local file contents, create new files, and apply diff edits to existing files in real time._
+
+---
+
 ### [📌 roboflow/sports](https://github.com/roboflow/sports)
 > _computer vision and sports_
 
@@ -42,11 +47,6 @@
 
 ### [📌 ByteByteGoHq/system-design-101](https://github.com/ByteByteGoHq/system-design-101)
 > _Explain complex systems using visuals and simple terms. Help you prepare for system design interviews._
-
----
-
-### [📌 anthropics/anthropic-cookbook](https://github.com/anthropics/anthropic-cookbook)
-> _A collection of notebooks/recipes showcasing some fun and effective ways of using Claude._
 
 ---
 

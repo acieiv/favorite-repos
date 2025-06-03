@@ -1,5 +1,10 @@
 # ⭐ My Top Repos
 
+### [📌 google-gemini/gemini-fullstack-langgraph-quickstart](https://github.com/google-gemini/gemini-fullstack-langgraph-quickstart)
+> _Get started with building Fullstack Agents using Gemini 2.5 and LangGraph_
+
+---
+
 ### [📌 VincentGarreau/particles.js](https://github.com/VincentGarreau/particles.js)
 > _A lightweight JavaScript library for creating particles_
 
@@ -42,11 +47,6 @@
 
 ### [📌 AiCodingBattle/augment-nextjs-starterpack](https://github.com/AiCodingBattle/augment-nextjs-starterpack)
 > _No description._
-
----
-
-### [📌 katanemo/archgw](https://github.com/katanemo/archgw)
-> _The AI-native proxy server for agents. Arch handles the pesky low-level work in building agentic apps like calling specific tools, routing prompts to the right agents, clarifying vague inputs, unifying access and observability to any LLM, etc._
 
 ---
 

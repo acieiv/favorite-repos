@@ -45,7 +45,7 @@
 
 ---
 
-### [📌 AiCodingBattle/augment-nextjs-starterpack](https://github.com/AiCodingBattle/augment-nextjs-starterpack)
+### [📌 JaySym-ai/augment-nextjs-starterpack](https://github.com/JaySym-ai/augment-nextjs-starterpack)
 > _No description._
 
 ---
